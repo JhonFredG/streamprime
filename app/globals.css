@@ -1,0 +1,150 @@
+/* Configuración base de Tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definición de variables CSS para temas claros y oscuros */
+
+:root {
+    --background: #171717;
+    /* Fondo oscuro por defecto */
+    --foreground: #fff;
+    /* Color de texto blanco */
+}
+
+
+/* Configuración para ocupar el 100% de la altura y color de texto blanco */
+
+html,
+body,
+:root {
+    height: 100%;
+    color: white;
+}
+
+
+/* Creación de una clase de utilidad para equilibrar el texto */
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+        /* Ajusta el texto para una mejor legibilidad en distintas resoluciones */
+    }
+}
+
+
+/* Configuración de temas en modo claro y oscuro */
+
+@layer base {
+     :root {
+        /* Variables en modo claro */
+        --background: 0 0% 100%;
+        /* Fondo claro */
+        --foreground: 0 0% 3.9%;
+        /* Texto oscuro */
+        --card: 0 0% 100%;
+        /* Fondo de tarjeta claro */
+        --card-foreground: 0 0% 3.9%;
+        /* Texto en tarjetas oscuro */
+        --popover: 0 0% 100%;
+        /* Fondo de popover claro */
+        --popover-foreground: 0 0% 3.9%;
+        /* Texto de popover oscuro */
+        --primary: 0 0% 9%;
+        /* Color principal oscuro */
+        --primary-foreground: 0 0% 98%;
+        /* Texto sobre color principal claro */
+        --secondary: 0 0% 96.1%;
+        /* Color secundario claro */
+        --secondary-foreground: 0 0% 9%;
+        /* Texto sobre color secundario oscuro */
+        --muted: 0 0% 96.1%;
+        /* Color neutro claro */
+        --muted-foreground: 0 0% 45.1%;
+        /* Texto neutro */
+        --accent: 0 0% 96.1%;
+        /* Color de acento claro */
+        --accent-foreground: 0 0% 9%;
+        /* Texto sobre acento oscuro */
+        --destructive: 0 84.2% 60.2%;
+        /* Color destructivo (rojo claro) */
+        --destructive-foreground: 0 0% 98%;
+        /* Texto sobre destructivo claro */
+        --border: 0 0% 89.8%;
+        /* Color de borde claro */
+        --input: 0 0% 89.8%;
+        /* Color de fondo de inputs */
+        --ring: 0 0% 3.9%;
+        /* Color de resalte */
+        /* Colores personalizados para gráficos */
+        --chart-1: 12 76% 61%;
+        --chart-2: 173 58% 39%;
+        --chart-3: 197 37% 24%;
+        --chart-4: 43 74% 66%;
+        --chart-5: 27 87% 67%;
+        --radius: 0.5rem;
+        /* Radio de bordes */
+    }
+    /* Configuración de temas para el modo oscuro */
+    .dark {
+        --background: 0 0% 3.9%;
+        /* Fondo oscuro */
+        --foreground: 0 0% 98%;
+        /* Texto claro */
+        --card: 0 0% 3.9%;
+        /* Fondo de tarjeta oscuro */
+        --card-foreground: 0 0% 98%;
+        /* Texto en tarjeta claro */
+        --popover: 0 0% 3.9%;
+        /* Fondo de popover oscuro */
+        --popover-foreground: 0 0% 98%;
+        /* Texto de popover claro */
+        --primary: 0 0% 98%;
+        /* Color principal claro */
+        --primary-foreground: 0 0% 9%;
+        /* Texto en color principal oscuro */
+        --secondary: 0 0% 14.9%;
+        /* Color secundario oscuro */
+        --secondary-foreground: 0 0% 98%;
+        /* Texto secundario claro */
+        --muted: 0 0% 14.9%;
+        /* Color neutro oscuro */
+        --muted-foreground: 0 0% 63.9%;
+        /* Texto neutro claro */
+        --accent: 0 0% 14.9%;
+        /* Color de acento oscuro */
+        --accent-foreground: 0 0% 98%;
+        /* Texto de acento claro */
+        --destructive: 0 62.8% 30.6%;
+        /* Color destructivo oscuro */
+        --destructive-foreground: 0 0% 98%;
+        /* Texto sobre destructivo claro */
+        --border: 0 0% 14.9%;
+        /* Borde oscuro */
+        --input: 0 0% 14.9%;
+        /* Fondo de inputs oscuro */
+        --ring: 0 0% 83.1%;
+        /* Color de resalte claro */
+        /* Colores para gráficos en modo oscuro */
+        --chart-1: 220 70% 50%;
+        --chart-2: 160 60% 45%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+    }
+}
+
+
+/* Aplicación de estilos globales */
+
+@layer base {
+    * {
+        @apply border-border;
+        /* Aplica color de borde configurado en el tema */
+    }
+    body {
+        @apply bg-background text-white;
+        /* Aplica fondo y color de texto basado en variables */
+    }
+}
