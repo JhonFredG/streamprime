@@ -16,7 +16,7 @@ export function MovieVideo(props: MovieVideoProps) {
       width="100%"
       height="100%"
       playing={true}
-      muted={false}
+      muted={true}
       controls={false}
     />
   );
