@@ -27,8 +27,8 @@ export function InfoExtraFilm(props: InfoExtraFilmProps) {
           width="100%"
           height="100%"
           playing={true}
-          muted={false}
-          controls={false}
+          muted={true}
+          controls={true}
         />
       </div>
 
