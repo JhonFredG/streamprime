@@ -24,7 +24,7 @@ export function ListMovies(props: ListMoviesProps) {
         isMyList={false}
       />
       <BlockMovies
-        title="Películas Favoritas"
+        title="Mi lista Favorita"
         movies={lovedFilms}
         isMyList={true}
       />
@@ -45,8 +45,8 @@ export function ListMovies(props: ListMoviesProps) {
       />
       <BlockMovies
         title="Ciencia Ficcion"
-        movies={lovedFilms}
-        isMyList={true}
+        movies={movies}
+        isMyList={false}
       />
       <BlockMovies
         title="Comedia"
@@ -85,8 +85,8 @@ export function ListMovies(props: ListMoviesProps) {
       />
       <BlockMovies
         title="Aventura"
-        movies={lovedFilms}
-        isMyList={true}
+        movies={movies}
+        isMyList={false}
       />
       <BlockMovies
         title="Retro Viajes en el Tiempo"
@@ -110,8 +110,8 @@ export function ListMovies(props: ListMoviesProps) {
       />
       <BlockMovies
         title="Documentales"
-        movies={lovedFilms}
-        isMyList={true}
+        movies={movies}
+        isMyList={false}
       />
       <BlockMovies
         title="Historico"
@@ -135,8 +135,8 @@ export function ListMovies(props: ListMoviesProps) {
     />
     <BlockMovies
       title="Terror"
-      movies={lovedFilms}
-      isMyList={true}
+      movies={movies}
+      isMyList={false}
     />
     
     </div>
