@@ -32,7 +32,7 @@ export function CarouselMovie(props: CarouselMovieProps) {
                   src={movie.thumbnailUrl}
                   alt="Image"
                   fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="(max-width: 3840px) 100vw, 50vw"
                   className="rounded-md"
                 />
                 <div
