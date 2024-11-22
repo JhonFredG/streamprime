@@ -2,6 +2,7 @@
 
 import { ArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 import { NavbarFilmProps } from "./NavbarFilm.types";
 
@@ -17,11 +18,21 @@ export function NavbarFilm(props: NavbarFilmProps) {
     <nav
       className="fixed flex gap-2 p-5 cursor-pointer items-center z-10 bg-zinc-900/70"
       onClick={backToHome}
-    >
+      >
+        
+   
       <ArrowLeft className="w-6 h-6" />
+      <div className="flex justify-center">
+      <Link href="/" className="font-extrabold text-2xl text-[#d51c45]">
+        StreamPrime
+      </Link>
+    </div>
+
       <p>
-        Estás viendo: <span className="font-bold">{titleMovie}</span>
-      </p>
+         Estás viendo: <span className="font-bold">{titleMovie}</span>
+      </p>  
+     
+      
     </nav>
   );
 }

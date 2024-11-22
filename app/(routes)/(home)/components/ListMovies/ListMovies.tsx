@@ -138,9 +138,9 @@ export function ListMovies(props: ListMoviesProps) {
       movies={movies}
       isMyList={false}
     />
-    
     </div>
+  );  
+}    
     
-    
-  );
-}
+  
+

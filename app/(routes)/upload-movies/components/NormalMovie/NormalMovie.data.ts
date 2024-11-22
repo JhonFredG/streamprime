@@ -10,7 +10,7 @@ export const dataMovies = [
     age: "12",
   },
   {
-    title: "Proyecto inmortalidad",
+    title: "Proyecto Inmortalidad",
     trailerVideo: "https://www.youtube.com/watch?v=6HYyVlZh_ho",
     movieVideo: "https://www.youtube.com/watch?v=6HYyVlZh_ho",
     thumbnailUrl:
@@ -80,12 +80,12 @@ export const dataMovies = [
     age: "13",
   },
   {
-    title: "Jack Reacher",
-    trailerVideo: "https://www.youtube.com/watch?v=xgENoldj0TA",
-    movieVideo: "https://www.youtube.com/watch?v=xgENoldj0TA",
+    title: "Rescate EXTREMO",
+    trailerVideo: "https://www.youtube.com/watch?v=P82L7kTOmTw",
+    movieVideo: "https://www.youtube.com/watch?v=P82L7kTOmTw",
     thumbnailUrl:
       "https://raw.githubusercontent.com/ratasi/images-netflix-clone/refs/heads/main/movies/movie-9.webp",
-    genre: ["Action", "Family", "Jack Reacher"],
+    genre: ["Action", "Family", "Rescate EXTREMO"],
     duration: "1h 50 min",
     age: "16",
   },

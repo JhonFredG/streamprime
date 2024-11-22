@@ -22,22 +22,22 @@ export const trendingMovies = [
     genre: ["Drama", "Thriller"],
   },
   {
-    title: "Prison Break",
+    title: "Venganza Implacable",
     thumbnailUrl:
       "https://raw.githubusercontent.com/ratasi/images-netflix-clone/refs/heads/main/trending/trending-3.jpg",
-    trailerVideo: "https://youtu.be/m1W7fkFmY2Q?si=XXBqq0sS9-telgiF",
-    movieVideo: "https://youtu.be/m1W7fkFmY2Q?si=XXBqq0sS9-telgiF",
+    trailerVideo: "https://www.youtube.com/watch?v=3KKk_90oFY8&t=4s",
+    movieVideo: "https://www.youtube.com/watch?v=SeIPWH_hv6g",
     ranking: 3,
     age: "18",
     duration: "90 min",
     genre: ["Comedy", "Family"],
   },
   {
-    title: "KAOS",
+    title: "Venganza Implacable",
     thumbnailUrl:
       "https://raw.githubusercontent.com/ratasi/images-netflix-clone/refs/heads/main/trending/trending-4.jpg",
-    trailerVideo: "https://youtu.be/AhRwWksi2jk?si=saYL0fO4d0H3j9Ze",
-    movieVideo: "https://youtu.be/AhRwWksi2jk?si=saYL0fO4d0H3j9Ze",
+    trailerVideo: "https://www.youtube.com/watch?v=3KKk_90oFY8",
+    movieVideo: "https://www.youtube.com/results?search_query=Trailes+de+venganza+implacable",
     ranking: 4,
     age: "0",
     duration: "90 min",

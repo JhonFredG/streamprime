@@ -31,8 +31,9 @@ export function NavbarMobile(props: NavbarMobileProps) {
               </Link>
             ))}
           </div>
+         
 
-          <div className="border-[1px] border-white/70 my-5" />
+          <div className="border-[1px] border-white/70 my-1" />
           <div className="flex justify-between gap-6 mt-4">
             <Search className="cursor-pointer" />
             <BellRing className="cursor-pointer" />
